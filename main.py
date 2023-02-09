@@ -1,7 +1,7 @@
 from gnosis.safe.safe_signature import SafeSignature
 
-signed_hash = "0x4a4a9d011a3a5b7e1907bbc78b68093b56199e44623faea9e4907ae1c1f22afc"
-signature = "0x4ce97aada5ab174cffd630cd1734831a6b4db860288e3af4c347e779726437ef44b068202a5580785d9eb4e446583a0bd0bdf85332fac20e75c63edc0aea07e21c"
+signed_hash = "0x2f6856dbd51836973c1e61852b64949556aa2e7f253d9e20e682f9a02d436791"
+signature = "0x59ad836ca5a240812273a4ca2b9c560524775e7f0edd39d85d234a6e5100dec74540f151ce663a75f39a207552b44c316b793f7bb9f967c7406af5a083f43b451b"
 
 parsed_signatures = SafeSignature.parse_signature(signature, signed_hash)
 for safe_signature in parsed_signatures:
