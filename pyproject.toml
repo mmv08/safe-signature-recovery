@@ -7,7 +7,7 @@ authors = ["Mikhail <@mikhailxyz>"]
 [tool.poetry.dependencies]
 typing-extensions = "^3.10.0"
 python = "^3.8"
-safe-eth-py = "5.0.0"
+safe-eth-py = "5.8.0"
 
 
 [tool.poetry.dev-dependencies]
